@@ -1,0 +1,237 @@
+body{
+    background-image: url(./shara_desert.jpg);
+    background-size: cover;
+    background-repeat: repeat;
+    width: 100vw;
+    height: 100vh;
+}
+.joker{
+    margin-left: 40px;
+    margin-right: 80px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+.art{
+    width: 100px;
+    height: 60px;
+}
+.container{
+    display: flex ;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    gap: 80px;
+    align-items: center;
+   
+}
+.container a{
+    text-decoration: none ;
+    font-weight: 600;
+    color: white ;
+    font-size:20px;
+    
+ }
+.material-symbols-outlined{
+    color: aqua;
+    font-size: 50px !important;
+}
+.extra{
+    position: relative;
+    top: 15vh;
+    left: 5vh;
+    height: 330px;
+    width: 700px;
+    font-size: larger;
+    color: white;
+}
+.op{
+    margin-top: 0;
+    font-size: 100px;
+    margin-bottom: 5px;
+}
+.mn{
+    position: absolute;
+    border: 5px solid white;
+    border-radius: 25px;
+    padding: 15px;
+    color:white;
+    font-size: 20px;
+    text-decoration: none;
+    top: 250px;
+  
+}
+.world{
+    position: absolute;
+    top: 15vh;
+    left: 50vw;
+    height: 550px;
+    width: 550px;
+    display: grid;
+    grid-template-columns: 300px 300px;
+    grid-template-rows: 300px 300px;
+    column-gap: 10px;
+    row-gap: 10px; 
+}
+.item{
+    background-image: url(./Western.png);
+    background-size: cover;
+    border-radius: 15px;
+    transition: all 500ms linear;
+    height: 200px;
+    width: 200px;
+    
+}
+.item:hover{
+    transform: translateY(-25px);
+}
+.item1{
+    background-image: url(./AI.png);
+    background-size: cover;
+    border-radius: 15px;
+    transition: all 500ms linear;
+    height: 200px;
+    width: 200px;
+}
+.item1:hover{
+    transform: translateY(-25px);
+}
+.item2{
+    background-image: url(./pyramid.png);
+    background-size: cover;
+    border-radius: 15px;
+    transition: all 500ms linear;
+    height: 200px;
+    width: 200px;
+}
+.item2:hover{
+    transform: translateY(-25px);
+}
+.item3{
+    background-image: url(./kalahari.png);
+    background-size: cover;
+    border-radius: 15px;
+    transition: all 500ms linear;
+    height: 200px;
+    width: 200px;
+}
+.item3:hover{
+    transform: translateY(-25px);
+}
+.nb{
+    font-size: 20px;
+    padding-top: 10px;
+    padding-left: 15px;
+    color: white;
+}
+.vb{
+    font-size:10px;
+    color: white;
+    padding-top: 10px;
+    padding-left: 15px;
+}
+
+@media (max-width:800px){
+    .joker{
+        top: 0vh;
+        margin-top: 0px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .container{
+        gap: 20px;
+    }
+    .extra{
+        top: 0vh;
+        margin-top: 0px;
+        position: relative;
+        text-align: center;
+        width: 100%;
+    }
+    .mn{
+        position: absolute;
+        margin-top: 5px;
+        align-items: center;
+        left: 250px;
+        top: 42vh;
+    }
+    .world{
+        
+        position: relative;
+        grid-template-columns:auto;
+        display: grid;
+        top: 4vh;
+        left: 20px;
+        right: 100px;
+        width:550px;
+        height:1300px ;
+        margin-left: 50px;
+        bottom: 0px;
+        row-gap: 15px;
+        justify-content: center;
+    }
+    .items{
+        width:75vw;
+        height: 200px;
+        border-radius: 15px;
+        background-size: cover;
+    }
+}
+@media(max-width:400px){
+    .joker{
+        top: 0;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .container{
+        gap: 10px;
+    }
+    .extra{
+        position: relative;
+        text-align: center;
+        top: 0;
+        font-size:17px;
+        left: 0;
+        width: 90vw; 
+        height: 30vh;
+    }
+    .op{
+        font-size: 30px;
+        top: 10vh;
+    }
+    .mn{
+        position: absolute;
+        top: 30vh;
+        font-size: 20px;
+        padding: 0;
+        left:50px;
+        right:50px;
+    }
+    .world{
+        padding-top: 50px;
+        position: static;
+        grid-template-columns:auto;
+        width:80%;
+        row-gap: 20px;
+        justify-content: center;
+    }
+    /*.item .item1 .item2 .item3{
+        width:400vw;
+        height: 100px;
+        border-radius: 15px;
+    }*/
+    .items{
+        position: relative;
+        top: 5vh;
+        width:300px;
+        height: 200px;
+        border-radius: 15px;
+        background-size: cover;
+    }
+    
+
+}
+
+
+
